@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router";
 
 const Sidenav = () => {
+
   return (
     <div className="w-[20%] h-full border-r-2 border-zinc-200 p-10">
       <h1 className="text-2xl text-white font-bold">
