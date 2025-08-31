@@ -11,9 +11,7 @@ const Topnav = () => {
     try {
       const { data } = await instance.get(`/search/multi?query=${query}`);
       const response = data.results;
-      console.log(data);
       setsearchData(response);
-      console.log(searchData);
     } catch (error) {
       console.log(error);
     }
